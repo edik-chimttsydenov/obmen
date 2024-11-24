@@ -28,6 +28,7 @@ def exchange():
             mb.showerror("Ошибка",f"Произошла ошибка:{e}.")
     else:
         mb.showwarning("Внимание!","Введите код валюты")
+        
 
 
 cur = {'RUB':'Русский рубль',
